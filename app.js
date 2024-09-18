@@ -52,7 +52,7 @@ const express = require('express');
 const app = express();
 
 app.get('/your-backend-link', (req, res) => {
-    res.redirect('https://www.thoughtworks.com/');
+    res.redirect('https://www.delta.com/');
 });
 
 app.listen(4000, () => {
